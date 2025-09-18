@@ -36,3 +36,36 @@
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.parent{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logindiv{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logindiv h1{
+    color: white;
+}
+.logindiv p{
+    color: white;
+}
+
+
+.logindiv button{
+    background-color: lime;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
