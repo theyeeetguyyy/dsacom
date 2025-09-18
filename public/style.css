@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Orbitron:wght@400..900&display=swap');
+
+.mainhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainhead h1{
+    color: black;
+    font-family: 'Jomhuria';
+    font-size: 100px;
+    font-weight: 1;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.mainhead h3{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 1;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.mainhead button{
+    color: black;
+    border-radius: 20;
+    text-decoration: dashed;
+    background-color: limegreen;
+    font-size: 30px;
+    border: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
