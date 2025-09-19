@@ -6,7 +6,7 @@ function LoginPage() {
         <>  
         <div className='parent'>
             <div className='logindiv'>
-                <h1>Login</h1>
+                <h1 className='text-blue-300'>Login</h1>
                 <p>Email</p>
                 <input type="text" />
                 <p>Password</p>
