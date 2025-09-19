@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import '../public/style.css';
 
 function Head() {
     const navigate = useNavigate();
@@ -9,10 +8,10 @@ function Head() {
     };
     return (
         <>
-            <div className="mainhead">
-                <h1 > Battle-gorithm  </h1>
+            <div>
+                <h1 className='text-purple-300 text-3xl' > Battle-gorithm  </h1>
                 <h3> Code, Think and Battle 1v1 in Real Timeee </h3>
-                <button className='loginbtn' onClick={handleLoginClick}>Login</button>
+                <button  onClick={handleLoginClick}>Login</button>
             </div>
         </> 
     )
